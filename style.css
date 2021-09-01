@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital@1&display=swap');
+
+
+:root {
+    --primary-color: #DB2777;
+    --secondary-color: #F472B6;
+}
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+    background-image: url("./img2.jpg");
+    background-repeat: no-repeat;
+    background-position: right left;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 2px white;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin: 1rem 0rem 3rem 0rem;
+    padding-top: 5rem;
+    letter-spacing: 0.3rem;
+}
+
+label {
+    margin: 2rem 0rem 5rem 0rem;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+input {
+    width: 80%;
+    font-size: 1.5rem;
+    margin: 3rem 0rem 4rem 0rem;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    border: #DB2777;
+    border-radius: 1rem;
+    outline: none;
+    letter-spacing: 0.2rem;
+}
+
+button {
+    width: 50%;
+    outline: none;
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+}
+
+#output {
+    margin: 1rem 0rem 1rem 0rem;
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
